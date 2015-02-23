@@ -1,6 +1,7 @@
 # Meteor Stuff
 .meteor/local
 .meteor/meteorite
+server/fixtures.js
 
 # Vim Stuff
 [._]*.s[a-w][a-z]
