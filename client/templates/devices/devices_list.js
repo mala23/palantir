@@ -1,5 +1,7 @@
 Template.devicesList.helpers({
   devices: function() {
-    return Devices.find();
+    return Devices.find({}, {
+      sort: {connected: -1}
+    });
   }
 });
