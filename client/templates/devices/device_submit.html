@@ -1,0 +1,29 @@
+<template name="deviceSubmit">
+  <form class="device__form">
+    <fieldset class="ip__fieldset">
+      <label class="device__label, device__ip">
+        ip
+      </label>
+      <input type="text" name="ip" id="ip" class="device__input device__ip__input"/>
+    </fieldset>
+    <fieldset class="mac__fieldset">
+      <label class="device__label, device__mac">
+        mac
+      </label>
+      <input type="text" name="mac" id="mac" class="device__input device__mac__input"/>
+    </fieldset>
+    <fieldset class="os__fieldset">
+      <label class="device__label, device__os">
+        os
+      </label>
+      <input type="text" name="os" id="os" class="device__input device__os__input"/>
+    </fieldset>
+    <fieldset class="vendor__fieldset">
+      <label class="device__label device__vendor">
+        vendor
+      </label>
+      <input type="text" name="vendor" id="vendor" class="device__input device__vendor__input"/>
+      <input type="submit" value="Submit" class="form__submit"/>
+    </fieldset>
+  </form>
+</template>
